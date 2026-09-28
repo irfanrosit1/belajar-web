@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar bootstrep</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+   
+        <!-- bisa di modifikasi dengan css (css exsternal) -->
+   <style>
+        .btn-primary{
+            background-color: rgb(232, 134, 134);
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container text-center">
+        <h1 class="text-danger text-center mt-4">Belajar Pakai Bootstrep</h1>
+        <!-- 
+        Warna Di Bootstrep
+        Primary (biru)
+        secondary (abu-abu)
+        danger (merah)
+        warning (kuning)
+        success (hijau)
+        info (biru muda)
+        dark (hitam)
+        light (putih)
+        -->
+        <button class="btn btn-primary rounded-pill">Klik Saya </button>
+        <button class="btn btn-secondary rounded-pill">Klik Saya </button>
+        <button class="btn btn-danger">Klik Saya </button>
+        <button class="btn btn-warning text-success">Klik Saya </button>
+        <button class="btn btn-success">Klik Saya </button>
+        <button class="btn btn-info">Klik Saya </button>
+        <button class="btn btn-dark">Klik Saya </button>
+    </div>
+
+    <!-- Tugas : Buat Header berwarna biru ,dan tulisan link ny berwarna putih
+     hint : gunakan bg
+      -->
+
+    <header class="bg-primary">
+        <div class="container d-flex align-items-center ">
+            <div>
+                <img src="assets/images/logo.webp" width="80px" class="p-2">
+            </div>
+            <div class="ms-auto ">
+                <a href="#" class="text-light text-decoration-none">Home</a>
+                <a href="#" class="text-light text-decoration-none">About</a>
+                <a href="#" class="text-light text-decoration-none">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- GRIP SYSTEM -->
+    <div class="row">
+        <div class="col-md-4">
+            <img src="assets/images/smkn3metro.jpg" width="100%">
+        </div>
+        <div class="col-md-3">
+            <img src="assets/images/berita 2.webp" width="100%">
+        </div>
+        <div class="col-md-6">
+            <h2>Ini judul berita</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptas suscipit voluptatibus numquam, harum praesentium asperiores ducimus, adipisci iste quod illo. Eum molestiae magnam unde consectetur minima nobis, sunt provident!</p>
+        </div>
+    </div>
+
+</body>
+</html>
